@@ -15,7 +15,6 @@ namespace SUDOKU_PROJESİ
     {
         SudokuEngine motor = new SudokuEngine(); //oyuncuya gösterilecek soru (0’lar boş)
         TextBox[,] kutular = new TextBox[9, 9]; //81 tane textbox’ı satır-sütun mantığıyla saklamak için 2 boyutlu dizi.
-        //aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
         int gecenSure = 0;
         bool oyunBasladi = false;
